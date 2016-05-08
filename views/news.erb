@@ -1,0 +1,11 @@
+<div class="small-8 small-offset-3 columns">
+    <h3>TOP NEWS STORIES</h3>
+
+    <ol>
+      <% @nytimes_json["results"].first(10).each do |result| %>
+        <li><a href="<%=result["url"]%>"><%=result["title"]%></a></li>
+      <%end%>
+    </ol>
+
+  </div>
+</div>

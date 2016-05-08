@@ -1,0 +1,11 @@
+<div class="small-8 small-offset-3 columns">
+    <h3>TODAY'S LOCAL EVENTS</h3>
+
+    <ul>
+      <% @events_json["events"].each do |event| %>
+        <li><a href="<%=event["url"]%>"><%=event["title"]%></a></li>
+      <% end %>
+    </ul>
+    
+  </div>
+</div>

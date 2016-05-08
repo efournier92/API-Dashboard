@@ -1,0 +1,14 @@
+<div class="small-8 small-offset-3 columns">
+    <h3>Weather For <%= "#{@geolocation.city} #{@geolocation.state}" %> </h3>
+
+    <p>
+      <li>
+        Current Temp: <b><%= @temp %></b> f
+      </li>
+      <li>
+        <a href="<%=@wunderjson["current_observation"]["forecast_url"]%>">Future Forecast</a>
+      </li>
+    </p>
+    
+  </div>
+</div>
