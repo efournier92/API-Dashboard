@@ -1,4 +1,4 @@
-require "./lib/geolocation"
+require "./models/geolocation"
 require "sinatra/base"
 require "json"
 require "pry"

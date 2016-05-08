@@ -2,12 +2,14 @@ require "net/http"
 require "json"
 
 class Geolocation
-  attr_reader :ip
 
   def initialize(ip)
-    @ip = ip
     @data = get_location
     @data = default_location if city.empty?
+  end
+
+  def ip
+    @data["ip"]
   end
 
   def city
