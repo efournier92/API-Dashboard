@@ -2,11 +2,10 @@
 
 This is an informational dashboard I built using Sinatra. All information comprising the dashboard comes from Web APIs.
 
-I used Behavior Driven Development for this project, starting with user stories, then writing a test, the writing code to make that test pass.
-
 This was mainly an exercise for me to practice reading API documentation, parsing resources provided by Web APIs, and writing tests for interacting with external resources.
 
 ##Technology Utilized
+
 * Sinatra
 * RSpec
 * Capybara
@@ -36,3 +35,8 @@ As a user
 I want to see the latest news headlines
 So that I can stay informed with current events.
 ```
+
+##ScreenShots
+
+![Main Dashboard](http://gdurl.com/gIdM)
+![News Dashboard](http://gdurl.com/5qEV)
